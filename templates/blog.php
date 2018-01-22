@@ -7,16 +7,16 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 
 	
-	<link rel="stylesheet" type="text/css" href="styles/reset.css">
-	<link rel="stylesheet" type="text/css" href="styles/clearfix.css">
-	<link rel="stylesheet" type="text/css" href="styles/jquery.fancybox-1.3.1.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="styles/nivo-slider.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="styles/base.css">
-	<link rel="stylesheet" type="text/css" href="styles/dark.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/clearfix.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/jquery.fancybox-1.3.1.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/styles/nivo-slider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/styles/base.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/dark.css">
 	<!--[if IE 8]>
-    <link rel="stylesheet" type="text/css" href="styles/style_ie8.css"><![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style_ie8.css"><![endif]-->
 	<!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" href="styles/style_ie7.css"><![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style_ie7.css"><![endif]-->
 	
 </head>
 

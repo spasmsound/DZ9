@@ -7,16 +7,16 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 
 	
-	<link rel="stylesheet" type="text/css" href="styles/reset.css">
-	<link rel="stylesheet" type="text/css" href="styles/clearfix.css">
-	<link rel="stylesheet" type="text/css" href="styles/jquery.fancybox-1.3.1.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="styles/nivo-slider.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="styles/base.css">
-	<link rel="stylesheet" type="text/css" href="styles/dark.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/clearfix.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/jquery.fancybox-1.3.1.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/styles/nivo-slider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/styles/base.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/dark.css">
 	<!--[if IE 8]>
-    <link rel="stylesheet" type="text/css" href="styles/style_ie8.css"><![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style_ie8.css"><![endif]-->
 	<!--[if IE 7]>
-    <link rel="stylesheet" type="text/css" href="styles/style_ie7.css"><![endif]-->
+    <link rel="stylesheet" type="text/css" href="assets/styles/style_ie7.css"><![endif]-->
 	
 </head>
 
@@ -29,12 +29,12 @@
 	
 		<div class="skipLink"><a href="#content" title="Skip to content">Skip to content</a></div>
 		
-		<div id="title"><span><a href="/DZ9/index.php" title="Wook" rel="home">Spasm</a></span></div>
+		<div id="title"><span><a href="index.php" title="Wook" rel="home">Spasm</a></span></div>
 		
 		<ul id="siteNav">
 			<li class="selected"><a href="index.php">Главная</a></li>
-			<li><a href="/DZ9/gallery.php">Галлерея</a></li>
-			<li><a href="/DZ9/blog.php">Гостевая Книга</a></li>
+			<li><a href="gallery.php">Галлерея</a></li>
+			<li><a href="blog.php">Гостевая Книга</a></li>
 			<li class="hasSub">
 		</ul>
 
@@ -108,9 +108,9 @@
 		<p class="copyright">&copy; 2017 SPASM. All Rights Reserved. Забавно</a>.</p>
 		
 		<ul>
-			<li><a href="/DZ9/index.php">Главная</a></li>
-			<li><a href="/DZ9/gallery.php">Галлерея</a></li>
-			<li><a href="/DZ9/blog.php">Гостевая книга</a></li>
+			<li><a href="index.php">Главная</a></li>
+			<li><a href="gallery.php">Галлерея</a></li>
+			<li><a href="blog.php">Гостевая книга</a></li>
 		</ul>
 		
 	</div><!-- #footer -->
