@@ -66,33 +66,9 @@
 			<li id="id15" class="tv"><a href="images/temp/big_15.jpg" class="gallery" rel="tv" title="This is image O"><img src="assets/images/temp/work_15.jpg" alt="" /></a><p>Image</p></li>
 		</ul>
 
-		<h2><span>Подробнее о "компании"</span></h2>
+
 
 		<div class="columns">
-
-			<div class="col">
-
-				<h3>Чем я занимаюсь</h3>
-
-				<p>Phasellus feugiat elit eu sem consequat eget ultrices tellus viverra. Donec accumsan mi eu metus faucibus et venenatis nibh posuere. Maecenas dignissim interdum purus eu condimentum. Aenean et justo non est gravida bibendum. Vivamus sit amet massa in lectus pulvinar gravida. Aenean sodales risus hendrerit lectus.</p>
-
-			</div>
-
-			<div class="col">
-
-				<h3>Обо мне</h3>
-
-				<p>Phasellus feugiat elit eu sem consequat eget ultrices tellus viverra. Donec accumsan mi eu metus faucibus et venenatis nibh posuere. Maecenas dignissim interdum purus eu condimentum. Aenean et justo non est gravida bibendum. Vivamus sit amet massa in lectus pulvinar gravida. Aenean sodales risus hendrerit lectus.</p>
-
-			</div>
-
-			<div class="col">
-
-				<h3>Моя деятельность</h3>
-
-				<p>Phasellus feugiat elit eu sem consequat eget ultrices tellus viverra. Donec accumsan mi eu metus faucibus et venenatis nibh posuere. Maecenas dignissim interdum purus eu condimentum. Aenean et justo non est gravida bibendum. Vivamus sit amet massa in lectus pulvinar gravida. Aenean sodales risus hendrerit lectus.</p>
-
-			</div>
 
 			<div class="col">
 

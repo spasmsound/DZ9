@@ -48,58 +48,8 @@
 
 		<p class="intro">Сайт о моих великих и ужасных достижениях, состоящих аж из !НЕСКОЛЬКИХ! пунктов! Тут не шутят.</p>
 
-		
-		<h2><span>Последние работы</span></h2>
-		
-		<ul class="work clearfix">
-			<li><a href="http://vimeo.com/1830060&amp;autoplay=1&amp;width=700&amp;height=500" class="gallery video vimeo" rel="gallery" title="This is image A"><img src="images/temp/work_1.jpg" alt="" /></a></li>
-			<li><a href="http://www.youtube.com/watch?v=5y2szViJlaY&amp;autoplay=1" class="gallery video" rel="gallery" title="This is image B"><img src="images/temp/work_2.jpg" alt="" /></a></li>
-			<li><a href="images/temp/big_3.jpg" class="gallery" rel="gallery"><img src="images/temp/work_3.jpg" alt="" /></a></li>
-			<li><a href="images/temp/big_4.jpg" class="gallery" rel="gallery"><img src="images/temp/work_4.jpg" alt="" /></a></li>
-		</ul>
 
-		<h2><span>Подробнее о "компании"</span></h2>
-		
-		<div class="columns">
-		
-			<div class="col">
-			
-				<h3>Чем я занимаюсь</h3>
-			
-				<p>Phasellus feugiat elit eu sem consequat eget ultrices tellus viverra. Donec accumsan mi eu metus faucibus et venenatis nibh posuere. Maecenas dignissim interdum purus eu condimentum. Aenean et justo non est gravida bibendum. Vivamus sit amet massa in lectus pulvinar gravida. Aenean sodales risus hendrerit lectus.</p>
-			
-			</div>
-			
-			<div class="col">
-			
-				<h3>Обо мне</h3>
-			
-				<p>Phasellus feugiat elit eu sem consequat eget ultrices tellus viverra. Donec accumsan mi eu metus faucibus et venenatis nibh posuere. Maecenas dignissim interdum purus eu condimentum. Aenean et justo non est gravida bibendum. Vivamus sit amet massa in lectus pulvinar gravida. Aenean sodales risus hendrerit lectus.</p>
-			
-			</div>
-			
-			<div class="col">
-			
-				<h3>Моя деятельность</h3>
-			
-				<p>Phasellus feugiat elit eu sem consequat eget ultrices tellus viverra. Donec accumsan mi eu metus faucibus et venenatis nibh posuere. Maecenas dignissim interdum purus eu condimentum. Aenean et justo non est gravida bibendum. Vivamus sit amet massa in lectus pulvinar gravida. Aenean sodales risus hendrerit lectus.</p>
-			
-			</div>
-			
-			<div class="col">
-			
-				<h3>Связь со мной</h3>
-			
-				<ul class="socialLinks">
-					<li><a href="#"><span class="twitter"></span> Follow us on Twitter</a></li>
-					<li><a href="#"><span class="facebook"></span> Fan us on Facebook</a></li>
-					<li><a href="#"><span class="rss"></span> Subscribe to our RSS feed</a></li>
-					<li><a href="#"><span class="email"></span> Email us for anything else</a></li>
-				</ul>
-			
-			</div>
-
-		</div><!-- .columns -->
+		<div class="columns"></div><!-- .columns -->
 		
 	</div><!-- #main -->
 
