@@ -49,9 +49,22 @@
 		<p class="intro">Сайт о моих великих и ужасных достижениях, состоящих аж из !НЕСКОЛЬКИХ! пунктов! Тут не шутят.</p>
 
 
-		<div class="columns"></div><!-- .columns -->
-		
-	</div><!-- #main -->
+        <div class="columns">
+
+            <div class="col">
+
+                <h3>Связь со мной</h3>
+
+                <ul class="socialLinks">
+                    <li><a href="#"><span class="twitter"></span> Follow us on Twitter</a></li>
+                    <li><a href="#"><span class="facebook"></span> Fan us on Facebook</a></li>
+                    <li><a href="#"><span class="rss"></span> Subscribe to our RSS feed</a></li>
+                    <li><a href="#"><span class="email"></span> Email us for anything else</a></li>
+                </ul>
+
+            </div>
+
+        </div><!-- .columns -->
 
 	<div id="footer">
 	

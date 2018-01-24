@@ -14,3 +14,8 @@ html[xmlns] .clearfix {
 * html .clearfix {
 	height: 1%;
 }
+
+#pictures li img {
+	width: 217px;
+	height: 147px;
+}

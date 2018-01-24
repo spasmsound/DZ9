@@ -47,43 +47,33 @@
 	<div id="main" class="clearfix">
 
 		<h1>Галлерея</h1>
-
-		<ul class="work fullWork clearfix">
-			<li id="id1" class="films"><a href="http://vimeo.com/1830060&amp;autoplay=1&amp;width=700&amp;height=500" class="gallery video vimeo" rel="films" title="This is image A"><img src="/DZ9/assets/images/temp/work_1.jpg" alt="" /></a><p>Vimeo Video</p></li>
-			<li id="id2" class="films"><a href="http://www.youtube.com/watch?v=5y2szViJlaY&amp;autoplay=1" class="gallery video" rel="films" title="This is image B"><img src="/DZ9/assets/images/temp/work_2.jpg" alt="" /></a><p>YouTube Video</p></li>
-			<li id="id3" class="films"><a href="images/temp/big_3.jpg" class="gallery" rel="films" title="This is image C"><img src="assets/images/temp/work_3.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id4" class="films"><a href="images/temp/big_4.jpg" class="gallery" rel="films" title="This is image D"><img src="assets/images/temp/work_4.jpg" alt="" /></a><p>Image</p></li>ß
-			<li id="id5" class="films"><a href="images/temp/big_5.jpg" class="gallery" rel="films" title="This is image E"><img src="assets/images/temp/work_5.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id6" class="films"><a href="images/temp/big_6.jpg" class="gallery" rel="films" title="This is image F"><img src="assets/images/temp/work_6.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id7" class="films"><a href="images/temp/big_7.jpg" class="gallery" rel="films" title="This is image G"><img src="assets/images/temp/work_7.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id8" class="films"><a href="images/temp/big_8.jpg" class="gallery" rel="films" title="This is image H"><img src="assets/images/temp/work_8.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id9" class="films"><a href="images/temp/big_9.jpg" class="gallery" rel="films" title="This is image I"><img src="assets/images/temp/work_9.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id10" class="tv"><a href="images/temp/big_10.jpg" class="gallery" rel="tv" title="This is image J"><img src="assets/images/temp/work_10.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id11" class="tv"><a href="images/temp/big_11.jpg" class="gallery" rel="tv" title="This is image K"><img src="assets/images/temp/work_11.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id12" class="tv"><a href="images/temp/big_12.jpg" class="gallery" rel="tv" title="This is image L"><img src="assets/images/temp/work_12.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id13" class="tv"><a href="images/temp/big_13.jpg" class="gallery" rel="tv" title="This is image M"><img src="assets/images/temp/work_13.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id14" class="tv"><a href="images/temp/big_14.jpg" class="gallery" rel="tv" title="This is image N"><img src="assets/images/temp/work_14.jpg" alt="" /></a><p>Image</p></li>
-			<li id="id15" class="tv"><a href="images/temp/big_15.jpg" class="gallery" rel="tv" title="This is image O"><img src="assets/images/temp/work_15.jpg" alt="" /></a><p>Image</p></li>
-		</ul>
+        <ul id="pictures" class="work fullWork clearfix">
+            <?php
+            foreach($pictures as $picture) { ?>
+            <li id="id1" class="films"><a href="image.php?id=<?php echo $picture['id'] ?> " class="gallery" rel="films" title="This is image A"><img src="<?php echo $picture['path']; ?>" alt=""  /></a></li>
+            <?php } ?>
+        </ul>
 
 
+		<!--<ul id="pictures" class="work fullWork clearfix">
+			<li id="id1" class="films"><a href="" class="gallery video vimeo" rel="films" title="This is image A"><img src="assets/images/temp/big_1.jpg" alt=""  /></a><p>Vimeo Video</p></li>
+			<li id="id2" class="films"><a href="" class="gallery video" rel="films" title="This is image B"><img src="/DZ9/assets/images/temp/big_2.jpg" alt="" /></a><p>YouTube Video</p></li>
+			<li id="id3" class="films"><a href="" class="gallery" rel="films" title="This is image C"><img src="assets/images/temp/big_3.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id4" class="films"><a href="" class="gallery" rel="films" title="This is image D"><img src="assets/images/temp/big_4.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id5" class="films"><a href="" class="gallery" rel="films" title="This is image E"><img src="assets/images/temp/big_5.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id6" class="films"><a href="" class="gallery" rel="films" title="This is image F"><img src="assets/images/temp/big_6.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id7" class="films"><a href="" class="gallery" rel="films" title="This is image G"><img src="assets/images/temp/big_7.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id8" class="films"><a href="" class="gallery" rel="films" title="This is image H"><img src="assets/images/temp/big_8.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id9" class="films"><a href="" class="gallery" rel="films" title="This is image I"><img src="assets/images/temp/big_9.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id10" class="tv"><a href="" class="gallery" rel="tv" title="This is image J"><img src="assets/images/temp/big_10.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id11" class="tv"><a href="" class="gallery" rel="tv" title="This is image K"><img src="assets/images/temp/big_11.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id12" class="tv"><a href="" class="gallery" rel="tv" title="This is image L"><img src="assets/images/temp/big_12.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id13" class="tv"><a href="" class="gallery" rel="tv" title="This is image M"><img src="assets/images/temp/big_13.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id14" class="tv"><a href="" class="gallery" rel="tv" title="This is image N"><img src="assets/images/temp/big_14.jpg" alt="" /></a><p>Image</p></li>
+			<li id="id15" class="tv"><a href="" class="gallery" rel="tv" title="This is image O"><img src="assets/images/temp/big_15.jpg" alt="" /></a><p>Image</p></li>
+		</ul> -->
 
-		<div class="columns">
 
-			<div class="col">
-
-				<h3>Связь со мной</h3>
-
-				<ul class="socialLinks">
-					<li><a href="#"><span class="twitter"></span> Follow us on Twitter</a></li>
-					<li><a href="#"><span class="facebook"></span> Fan us on Facebook</a></li>
-					<li><a href="#"><span class="rss"></span> Subscribe to our RSS feed</a></li>
-					<li><a href="#"><span class="email"></span> Email us for anything else</a></li>
-				</ul>
-
-			</div>
-
-		</div><!-- .columns -->
 
 	</div><!-- #main -->
 

@@ -21,7 +21,6 @@
 </head>
 
 <body class="jsDisabled">
-<script type="text/javascript">$('body').removeClass('jsDisabled');</script>
 
 <div id="header" class="clearfix">
 	
@@ -45,7 +44,9 @@
 <div id="wrapper">
 
 	<h1>Гостевая книга</h1>
-	<div id="main" class="clearfix">dfdfdfdfdfddf</div>
+	<div id="main" class="clearfix">
+        <?php var_dump($guestBook); ?>
+    </div>
 
 	<div id="footer">
 	
