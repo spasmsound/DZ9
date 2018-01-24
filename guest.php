@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 function __autoload($class)
 {
     require __DIR__ . '/classes/' . $class . '.php';
@@ -10,4 +12,4 @@ $guestBook = $dataBase->query('SELECT id, record FROM guestbook');
 
 $view = new View();
 $view->assign('guestBook', $guestBook);
-$view->display(__DIR__ . '/templates/blog.php');
+$view->display(__DIR__ . '/templates/guest.php');

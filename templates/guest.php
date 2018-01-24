@@ -33,7 +33,7 @@
 		<ul id="siteNav">
 			<li><a href="index.php">Главная</a></li>
 			<li><a href="gallery.php">Галлерея</a></li>
-			<li class="selected"><a href="blog.php">Гостевая Книга</a></li>
+			<li class="selected"><a href="guest.php">Гостевая Книга</a></li>
 			<li class="hasSub">
 		</ul>
 
@@ -45,17 +45,22 @@
 
 	<h1>Гостевая книга</h1>
 	<div id="main" class="clearfix">
-        <?php var_dump($guestBook); ?>
+        <?php foreach ($guestBook as $record) { ?>
+            <article>
+                <?php echo $record['record']; ?>
+                <hr>
+            </article>
+       <?php } ?>
     </div>
 
 	<div id="footer">
 	
-		<p class="copyright">&copy; 2017 SPASM. All Rights Reserved. Забавно</a>.</p>
+		<p class="copyright">&copy; 2017 SPASM. All Rights Reserved. Забавно.</p>
 		
 		<ul>
 			<li><a href="index.php">Главная</a></li>
 			<li><a href="gallery.php">Галлерея</a></li>
-			<li><a href="blog.php">Гостевая книга</a></li>
+			<li><a href="guest.php">Гостевая книга</a></li>
 		</ul>
 		
 	</div><!-- #footer -->

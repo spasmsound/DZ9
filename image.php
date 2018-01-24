@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 function __autoload($class)
 {
     require __DIR__ . '/classes/' . $class . '.php';

@@ -34,7 +34,7 @@
 		<ul id="siteNav">
 			<li class="selected"><a href="index.php">Главная</a></li>
 			<li><a href="gallery.php">Галлерея</a></li>
-			<li><a href="blog.php">Гостевая Книга</a></li>
+			<li><a href="guest.php">Гостевая Книга</a></li>
 			<li class="hasSub">
 		</ul>
 
@@ -73,7 +73,7 @@
 		<ul>
 			<li><a href="index.php">Главная</a></li>
 			<li><a href="gallery.php">Галлерея</a></li>
-			<li><a href="blog.php">Гостевая книга</a></li>
+			<li><a href="guest.php">Гостевая книга</a></li>
 		</ul>
 		
 	</div><!-- #footer -->
