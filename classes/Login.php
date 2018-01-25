@@ -23,6 +23,8 @@ class Login
         }else return false;
     }
 
-    public function checkPassword($login, $password){}
+    public function checkPassword($login, $password)
+    {
 
+    }
 }
