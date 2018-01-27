@@ -2,7 +2,7 @@
 return [
     'host' => 'localhost',
     'dbname' => 'test',
-    'login' => 'root',
+    'Authorization' => 'root',
     'password' => 'php1',
     'code' => 'utf8mb4',
 ];

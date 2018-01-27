@@ -11,7 +11,7 @@ class DB
     {
         $this->cfg = require __DIR__ . '/../config/config.php';
         $this->dsn = 'mysql:host=' . $this->cfg['host'] . ';dbname=' . $this->cfg['dbname'] . ';charset=' . $this->cfg['code'];
-        $this->dbh = new PDO($this->dsn, $this->cfg['login'], $this->cfg['password']);
+        $this->dbh = new PDO($this->dsn, $this->cfg['Authorization'], $this->cfg['password']);
     }
 
     public function execute(string $sql)

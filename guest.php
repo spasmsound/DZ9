@@ -1,11 +1,10 @@
 <?php
 session_start();
 
-function __autoload($class)
+function __autoload($className)
 {
-    require __DIR__ . '/classes/' . $class . '.php';
+    require __DIR__ . '/classes/' . $className . '.php';
 }
-
 
 $dataBase = new DB();
 $guestBook = $dataBase->query('SELECT id, record FROM guestbook');

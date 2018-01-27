@@ -1,10 +1,11 @@
 <?php
 session_start();
 
-function __autoload($class)
+function __autoload($className)
 {
-    require __DIR__ . '/classes/' . $class . '.php';
+    require __DIR__ . '/classes/' . $className . '.php';
 }
+
 if (empty($_GET['id'])) {
     die ('Картинка не существует');
 }
