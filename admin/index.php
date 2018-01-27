@@ -1,8 +1,10 @@
 <?php
 session_start();
 
-require __DIR__ . '/autoload.php';
+require __DIR__ . '/../autoload.php';
 
-$auth = new Authorization();
+$auth = new \App\Models\Authorization();
+$view = new \App\Models\View();
 
-echo 'Привет, я одменка, а ты ' . $auth->getCurrentUser();
+$view->assign('auth', $auth);
+$view->display(__DIR__ . '/../templates/admin/index.php');

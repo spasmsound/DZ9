@@ -35,6 +35,7 @@
 			<li class="selected"><a href="index.php">Главная</a></li>
 			<li><a href="gallery.php">Галлерея</a></li>
 			<li><a href="guest.php">Гостевая Книга</a></li>
+            <li><a href="login.php">Админ-панель</a></li>
 			<li class="hasSub">
 		</ul>
 
@@ -47,7 +48,11 @@
 	<div id="main" class="clearfix">
         <h2>Обо мне:</h2>
 
-		<p class="intro">Сайт о моих великих и ужасных достижениях, состоящих аж из !НЕСКОЛЬКИХ! пунктов! Тут не шутят.</p>
+		<p class="intro">
+            <?php foreach ($about as $value) {
+		    echo $value['aboutme'];
+            } ?>
+        </p>
 
 
         <div class="columns">

@@ -34,6 +34,7 @@
 			<li><a href="index.php">Главная</a></li>
 			<li><a href="gallery.php">Галлерея</a></li>
 			<li class="selected"><a href="guest.php">Гостевая Книга</a></li>
+            <li><a href="login.php">Админ-панель</a></li>
 			<li class="hasSub">
 		</ul>
 
@@ -51,6 +52,13 @@
                 <hr>
             </article>
        <?php } ?>
+
+        <form name="comment" action="addRecord.php" method="post" id="comment">
+            <label>Комментарий:</label>
+            <br>
+            <textarea name="text_comment" cols="30" rows="10"></textarea><br><br>
+            <button type="submit" form="comment" value="Submit">Отправить</button>
+        </form>
     </div>
 
 	<div id="footer">

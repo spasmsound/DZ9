@@ -35,6 +35,7 @@
 			<li><a href="index.php">Главная</a></li>
 			<li class="selected"><a href="gallery.php">Галлерея</a></li>
 			<li><a href="guest.php">Гостевая Книга</a></li>
+            <li><a href="login.php">Админ-панель</a></li>
 			<li class="hasSub">
 		</ul>
 	
@@ -86,7 +87,7 @@
 			<li><a href="gallery.php">Галлерея</a></li>
 			<li><a href="guest.php">Гостевая книга</a></li>
 		</ul>
-		
+
 	</div><!-- #footer -->
 	
 </div><!-- #wrapper -->

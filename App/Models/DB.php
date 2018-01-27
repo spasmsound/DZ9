@@ -27,7 +27,7 @@ class DB
     {
         $request = $this->dbh->prepare($sql);
         if ($request->execute($data)) {
-            return $request->fetchAll(PDO::FETCH_ASSOC);
+            return $request->fetchAll(\PDO::FETCH_ASSOC);
         }else return false;
     }
 }
