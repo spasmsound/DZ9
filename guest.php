@@ -1,12 +1,9 @@
 <?php
 session_start();
 
-function __autoload($className)
-{
-    require __DIR__ . '/classes/' . $className . '.php';
-}
+require __DIR__ . '/autoload.php';
 
-$dataBase = new DB();
+$dataBase = new \App\Models\DB();
 $guestBook = $dataBase->query('SELECT id, record FROM guestbook');
 
 $view = new View();

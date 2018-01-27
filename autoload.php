@@ -1,5 +1,6 @@
 <?php
 
 function __autoload($class) {
-    require __DIR__ . '/classes/' . $class . '.php';
+    $file = str_replace('\\', '/', __DIR__ . '/' . $class . '.php');
+    require $file;
 }

@@ -1,10 +1,8 @@
 <?php
 session_start();
 
-function __autoload($class) {
-    require __DIR__ . '/../classes/' . $class . '.php';
-}
+require __DIR__ . '/autoload.php';
 
 $auth = new Authorization();
 
-echo 'Привет, я одменка, а ты мудак-' . $auth->getCurrentUser();
+echo 'Привет, я одменка, а ты ' . $auth->getCurrentUser();

@@ -1,12 +1,9 @@
 <?php
 session_start();
 
-function __autoload($className)
-{
-    require __DIR__ . '/classes/' . $className . '.php';
-}
+require __DIR__ . '/autoload.php';
 
-$auth = new Authorization();
+$auth = new \App\Models\Authorization();
 
 if (!empty($_POST)) {
     if ($auth->checkPassword($_POST['username'], $_POST['password'])) {

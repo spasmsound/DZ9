@@ -1,14 +1,12 @@
 <?php
 session_start();
 
-function __autoload($className)
-{
-    require __DIR__ . '/classes/' . $className . '.php';
-}
 
-$view = new View();
+require __DIR__ . '/autoload.php';
 
-$dataBase = new DB();
+$view = new \App\Models\View();
+
+$dataBase = new \App\Models\DB();
 $pictures = $dataBase->query('SELECT id, path FROM gallery');
 
 $view->assign('pictures', $pictures);
