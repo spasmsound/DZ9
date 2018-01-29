@@ -9,6 +9,12 @@
 </head>
 <body>
 
-Фото
+<h1>Добавление фотографий в галлерею</h1>
+
+<form action="action/addPhoto.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="file"> <br>
+    <input type="submit">
+</form>
+
 </body>
 </html>
