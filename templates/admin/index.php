@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Вы вошли в админ-панель как <?php $auth->getCurrentUser() ?>. Выберите фунцию:</h1>
+<h1>Вы вошли в админ-панель как <?php echo $auth->getCurrentUser() ?>. Выберите фунцию:</h1>
 <a href="deleteRecord.php"><h2>Удаление записей из гостевой книги</h2></a>
 <a href="addPhoto.php"><h2>Добавить фото в галлерею</h2></a>
 <a href="changeAbout.php"><h2>Изменить текст "Обо мне"</h2></a>

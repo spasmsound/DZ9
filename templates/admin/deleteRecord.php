@@ -8,6 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-Записи
+<?php foreach ($guestBook as $value) { ?>
+    <article>
+        <?php echo $value['record']; ?>
+        <form action="action/delete.php" method="post">
+            <input name="<?php echo $value['id'] ?>" type="submit" value="Удалить" />
+        </form>
+        <hr>
+    </article>
+<?php } ?>
 </body>
 </html>

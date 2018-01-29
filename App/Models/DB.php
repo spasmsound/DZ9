@@ -12,13 +12,13 @@ class DB
     public function __construct()
     {
         $this->cfg = require __DIR__ . '/../../config/config.php';
-        $this->dsn = 'mysql:host=' . $this->cfg['host'] . ';dbname=' . $this->cfg['dbname'] . ';charset=' . $this->cfg['code'];
-        $this->dbh = new \PDO($this->dsn, $this->cfg['Authorization'], $this->cfg['password']);
+        $this->dsn = 'mysql:host=' . $this->cfg['host'] . ';dbname=' . $this->cfg['dbname'] . ';charset=' . $this->cfg['charset'];
+        $this->dbh = new \PDO($this->dsn, $this->cfg['username'], $this->cfg['password']);
     }
 
-    public function execute(string $sql)
+    public function execute(string $sql, array $data = [])
     {
-        if ($this->dbh->prepare($sql)->execute()) {
+        if ($this->dbh->prepare($sql)->execute($data)) {
             return true;
         }else return false;
     }
