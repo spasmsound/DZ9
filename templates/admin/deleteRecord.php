@@ -11,7 +11,7 @@
 <?php foreach ($guestBook as $value) { ?>
     <article>
         <?php echo $value['record']; ?>
-        <form action="action/deleteRecord.php" method="post">
+        <form action="deleteRecord.php" method="get">
             <input name="<?php echo $value['id'] ?>" type="submit" value="Удалить" />
         </form>
         <hr>

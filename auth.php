@@ -9,7 +9,7 @@ $auth = new \App\Models\Authorization();
 if (!empty($_POST)) {
     if ($auth->checkPassword($_POST['username'], $_POST['password'])) {
         $_SESSION['username'] = $_POST['username'];
-        header('Location: admin/index.php');
+        header('Location: admin/menu.php');
         exit;
     }else {
         header('Location: login.php');

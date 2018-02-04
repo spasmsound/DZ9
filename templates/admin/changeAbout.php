@@ -15,7 +15,7 @@
 <?php } ?>
 <hr>
 
-<form name="comment" action="action/changeAbout.php" method="post" id="comment">
+<form name="comment" action="changeAbout.php" method="post" id="comment">
     <label>Новый текст:</label>
     <br>
     <textarea name="aboutText" cols="30" rows="10"></textarea><br><br>
